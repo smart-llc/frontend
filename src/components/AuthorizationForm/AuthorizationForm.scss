@@ -1,0 +1,45 @@
+.authorization-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__input {
+    margin-top: 20px;
+    width: 340px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    padding: 12px 20px 12px 20px;
+  }
+
+  &__root-input {
+    border: none;
+    font-family: FuturaPTBook;
+    font-size: 20px;
+    color: #8777e4;
+    width: 100%;
+    outline: none;
+  }
+
+  &__root-input::placeholder {
+    color: #dedede;
+  }
+
+  &__apply-form {
+    margin-top: 70px;
+  }
+
+  &__button {
+    border-radius: 23px;
+    background-color: #8777e4;
+    padding: 12px 54px 12px 54px;
+    font-family: FuturaPTBook;
+    font-size: 18px;
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+  }
+
+}

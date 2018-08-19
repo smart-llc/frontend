@@ -1,0 +1,45 @@
+.auth-controller {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__logo {
+    display: flex;
+    margin-bottom: 30px;
+    width: 128px;
+    height: 128px;
+    background-image: url('logo.png');
+  }
+
+  &__title {
+    margin-bottom: 120px;
+    font-family: FuturaPTMedium;
+    font-size: 36px;
+    font-weight: 500;
+    color: #8777e4;
+    user-select: none;
+  }
+
+  &__panel {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  &__button {
+    font-family: FuturaPTBook;
+    font-size: 24px;
+    color: #a8a8a8;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  &__button_active {
+    font-family: FuturaPTBook;
+    font-size: 24px;
+    color: #8777e4;
+  }
+}
